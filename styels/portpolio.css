@@ -14,6 +14,19 @@
     background: #FD6E0A;
 }
 
+.con {
+    width: 160px;
+    height: 64px;
+    margin-left: 10px;
+    color: #FD6E0A;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    border-color: #FD6E0A;
+    border-radius: 5px;
+
+}
+
 .header {
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
@@ -166,16 +179,16 @@ main {
 .title {
     font-weight: 700;
     font-size: 20px;
-    color:red;
-    margin-bottom:10px;
-    
+    color: red;
+    margin-bottom: 10px;
+
 }
 
 .sub-title {
     font-size: 20px;
     font-weight: 600;
     color: red;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 
 }
 
@@ -183,36 +196,45 @@ main {
     color: #757575;
 
 }
-.resume-item{
+
+.resume-item {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.resume-btn{
+
+.resume-btn {
     margin-top: 50px;
     text-align: center;
 }
+
 /* contact style */
-.contact{
+.contact {
     display: flex;
     gap: 100px;
     background-color: antiquewhite;
     padding: 130px 200px;
 }
-.contact .section-title{
+
+.contact .section-title {
     text-align: left;
-    
+
 }
-.contact input[type="text"], input[ type="email"], textarea{
+
+.contact input[type="text"],
+input[ type="email"],
+textarea {
     margin-bottom: 24px;
     border: 0;
     width: 100%;
     padding: 18px 30px;
 }
-input{
+
+input {
     height: 64px;
 }
+
 .contact a {
     text-decoration: none;
-    
+
 
 }
